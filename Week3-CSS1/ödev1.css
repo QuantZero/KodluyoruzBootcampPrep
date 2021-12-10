@@ -1,0 +1,110 @@
+body {
+    background-color: beige;
+    background-size: cover;
+    text-align: center;
+    font-family: lato;
+}
+
+/** Background Foundations **/ 
+.logo {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/** Logo Customized **/
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a {
+    color: #d62828;
+}
+
+/** Headers, Paragraphs and Links Customized **/
+
+.pizza {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.pizza:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.pizza {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px
+}
+
+
+.burger {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.burger:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.burger {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px
+}
+
+
+.soufle {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.soufle:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.soufle {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px
+}
+
+
+.sauce {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.sauce:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.sauce {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px
+}
+
+/** Hover Effects Added **/
