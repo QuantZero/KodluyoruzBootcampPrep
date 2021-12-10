@@ -1,0 +1,110 @@
+/** Luigi's Recipes Card Template **/ 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background: url(/Week3-CSS1/ac.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+/** Background changed, items centered **/
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 260px 220px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+}
+
+/** Laid Card Foundations **/
+
+.card-image1 {
+    grid-area: image;
+    background: url(/Week3-CSS1/pizza1.jpeg);
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.card-image2 {
+    grid-area: image;
+    background: url(/Week3-CSS1/cheeseburger.jpeg);
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.card-image3 {
+    grid-area: image;
+    background: url(/Week3-CSS1/soufle.jpeg);
+    border-radius: 15px;
+    background-size: cover;
+}
+
+/** Set Card Images **/ 
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text .date {
+    color: #ad080f;
+    font-size: 13px;
+   
+}
+
+.card-text .p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card-text h2 {
+    margin-top: 0px;
+    font-size: 28px;
+
+}
+
+/** Arranged Card Text **/
+
+.card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ad080f;
+}
+
+.card-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: white;
+    padding: 10px;
+}
+
+/** Customized Card Stats **/
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.card {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px
+}
+
+/** Added Card Hover Effect **/
