@@ -1,2 +1,2 @@
 # Kodluyoruz
-Kodluyoruz Bootcamp Hazırlık Sürecindeki Ödevleri Burada Bulabilirsiniz
+This repository includes beginner level projects from Kodluyoruz.org Bootcamp Prep.
